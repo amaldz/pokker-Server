@@ -18,7 +18,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketio(server, {
     cors: {
-        origin: "http://pokker-planning.s3-website.ap-south-1.amazonaws.com",
+        origin: "http://pokerzeus.s3-website.ap-south-1.amazonaws.com",
         methods: ["GET", "POST"],
     },
 });
